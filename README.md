@@ -32,6 +32,9 @@
 Что помешало решить?
 
 Запуск тестов
-Установить все необходимые библиотеки: pip3 install -r requirements
-Загрузить Selenium WebDriver (выбрать версию совместимую с вашим браузером)
+Установить все необходимые библиотеки: pip3 install -r requirements.txt
+
+Загрузить Selenium WebDriver https://chromedriver.chromium.org/downloads
+(выбрать версию совместимую с вашим браузером)
+
 Запуск тестов: python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/test_auth.py
