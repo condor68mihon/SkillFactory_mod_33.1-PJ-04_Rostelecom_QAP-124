@@ -31,10 +31,24 @@
 Как пробовали решить задачу?
 Что помешало решить?
 
+Файлы
+
+- chromedriver.exe Веб-драйвер браузера Google Chrome
+- tests/conftest.py Фикстуры для выполнения тестов
+- tests/test_auth.py Содержит тесты веб-интерфейса
+- settings.py Настройка переменных окружения
+- requirements.txt Необходимые библиотеки для работы тестов. Установка: pip3 install -r requirements
+- pages/base_page.py Класс базовой страницы, с базовыми функциями
+- pages/auth_page.py Класс страницы авторизации, содержит необходимые локаторы и функции
+- pages/user_page.py Класс страницы профиля пользователя, содержит необходимые локаторы и функции
+- pages/registration_page.py Класс страницы регистрации, содержит необходимые локаторы и функции
+
 Запуск тестов
+
 Установить все необходимые библиотеки: pip3 install -r requirements.txt
 
 Загрузить Selenium WebDriver https://chromedriver.chromium.org/downloads
 (выбрать версию совместимую с вашим браузером)
 
-Запуск тестов: python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/test_auth.py
+Запуск тестов:
+python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/test_auth.py
