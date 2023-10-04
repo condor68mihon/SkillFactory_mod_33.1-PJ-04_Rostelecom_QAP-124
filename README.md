@@ -1,6 +1,11 @@
 # SkillFactory_mod_33.1-PJ-04_Rostelecom_QAP-124
 33.1. Итоговый проект по автоматизации тестирования (PJ-04) Реальный кейс от компании «Ростелеком Информационные Технологии»
 
+Обьект тестирования: https://b2c.passport.rt.ru
+
+Требования: https://docs.google.com/document/d/12-_nv9-EtaxyKapZG5utfGygDa9F1-zk/edit?usp=sharing&ouid=105574115782308022737&rtpof=true&sd=true
+
+
 Цель: стать тестировщиком, погрузиться в индустрию и поработать над рыночной задачей от реального заказчика.
 
 Задача:
@@ -26,4 +31,7 @@
 Как пробовали решить задачу?
 Что помешало решить?
 
-
+Запуск тестов
+Установить все необходимые библиотеки: pip3 install -r requirements
+Загрузить Selenium WebDriver (выбрать версию совместимую с вашим браузером)
+Запуск тестов: python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/test_auth.py
