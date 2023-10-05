@@ -56,4 +56,4 @@ python -m pytest -v --driver Chrome --driver-path ~/chromedriver_win32 tests, г
 ````
 
 ### Документация тестирования по проекту:
-Набор [тест-кейсов, баг репорты]()
+Набор [тест-кейсов, баг репорты](https://docs.google.com/spreadsheets/d/1f8FeTyL4sykUDERDAtqxAtSIYcc5UzHs/edit?usp=sharing&ouid=105574115782308022737&rtpof=true&sd=true)
